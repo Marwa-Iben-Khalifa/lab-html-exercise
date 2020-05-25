@@ -31,8 +31,16 @@ header > div {
       width: 50px;
       margin-right: 1rem;
   }
-  .search-bar .loop {
-    width: 20px;
+ .search-bar {
+    position: relative;
+    padding-left: 3em;
+}
+.loop {
+    position: absolute;
+    bottom: 0.5em;
+    left: 0.8em;
+    width: 1.4em;
+    height: 1.4em;
 }
 form {
     
